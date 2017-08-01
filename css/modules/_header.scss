@@ -1,0 +1,30 @@
+.hero {
+  padding-top: 0;
+}
+
+header {
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+  ul {
+    list-style: none;
+    li {
+      display: inline;
+      padding-right: 10px;
+      font-weight: 600;
+    }
+  }
+  .logo {
+    padding: 10px 0px 10px 30px;
+    max-height: 50px;
+    width: auto;
+  }
+  .menu {
+    padding-right: 30px;
+    position: relative;
+    top: 15px;
+    float: right;
+    a {
+      color: #fff;
+    }
+  }
+}

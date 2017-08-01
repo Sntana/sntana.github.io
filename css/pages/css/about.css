@@ -1,0 +1,66 @@
+/* General Rules */
+/* Section Specific Rules*/
+.hero {
+  min-height: 400px;
+  background-image: url("http://pedrosntana.com/wp-content/uploads/2017/06/byron-johnson-149913.jpg");
+  background-position: center;
+  background-size: cover; }
+  .hero .hero-content {
+    color: #fff;
+    padding-top: 50px; }
+    .hero .hero-content .hero-title {
+      font-family: 'Satisfy', cursive;
+      font-size: 78pt; }
+    .hero .hero-content .hero-title, .hero .hero-content .hero-text {
+      text-align: left; }
+    .hero .hero-content .hero-subtitle {
+      padding-left: 10px;
+      margin-bottom: 40px; }
+    .hero .hero-content .hero-text {
+      padding-left: 50px;
+      max-width: 600px; }
+
+.bio {
+  padding-bottom: 3%; }
+  .bio .story {
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center; }
+    .bio .story h2 {
+      font-family: 'Satisfy', cursive; }
+    .bio .story p {
+      padding-top: 1%;
+      font-size: 18px; }
+      .bio .story p .read a {
+        text-decoration: underline; }
+
+.gallery {
+  text-align: center;
+  /* Blog Code */ }
+  .gallery h2 {
+    font-family: 'Satisfy', cursive; }
+  .gallery p {
+    padding-top: 1%;
+    font-size: 18px; }
+  .gallery .gallery-grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    padding-bottom: 3%; }
+    .gallery .gallery-grid .responsive-image {
+      max-width: 100%; }
+    .gallery .gallery-grid .picture-item img {
+      display: block; }
+    .gallery .gallery-grid .picture-item {
+      margin: 1rem; }
+  @media screen and (min-width: 600px) {
+    .gallery .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row; }
+      .gallery .grid .picture-item {
+        width: calc(25% - 2rem); } }
+  @media screen and (min-width: 1000px) {
+    .gallery .picture-item {
+      width: calc(25% - 2rem); } }
+
+/*# sourceMappingURL=about.css.map */

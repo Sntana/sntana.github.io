@@ -1,0 +1,50 @@
+.footer {
+  display: block;
+  background: #323232;
+  margin: 0;
+  padding: 0;
+  .footer-box {
+    padding: 3% 0;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    color: #fff;
+    h3 {
+      font-family: 'Satisfy', cursive;
+    }
+    h5, p {
+      margin-left: 2%;
+      font-size: 10pt;
+    }
+  }
+  #about {
+    p {
+      width: 80%;
+    }
+  }
+  #contact {
+
+  }
+  #menu {
+    h3 {margin-left: 30px;}
+    a {
+      font-weight: 500;
+    }
+    ul {
+    list-style: none;
+    }
+    .submenu {
+      padding-left: 10px;
+    }
+  }
+  .copy-box {
+    padding: 0;
+    margin: 0;
+    background-color: #1c1c1c;
+    color: white;
+    p {
+      padding-top: 1%;
+      text-align: center;
+      font-size: 12pt;
+    }
+  }
+}

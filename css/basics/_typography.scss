@@ -1,0 +1,32 @@
+@mixin title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+@mixin text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+// Headings:
+h1, h2, h3, h4, h5, h6 {
+  @include title;
+}
+
+// Basic Test:
+p {
+  @include text;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: #ffc132;
+    text-decoration: none;
+  }
+  &:active {
+    color: #ffc132;
+    text-decoration: underline;
+  }
+}

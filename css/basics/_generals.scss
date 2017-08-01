@@ -1,0 +1,69 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.body {
+   border: 15px solid #232323;
+
+}
+
+
+.hero {
+  min-height: 200px;
+  background-image: url("http://pedrosntana.com/wp-content/uploads/2017/06/byron-johnson-149913.jpg");
+  background-position: center;
+  background-size: cover;
+  .hero-content {
+    color: #fff;
+    padding-top: 50px;
+    .hero-title {
+      font-family: 'Satisfy', cursive;
+      font-size: 24pt;
+    }
+    .hero-title, .hero-text {
+      text-align: left;
+    }
+    .hero-subtitle {
+      padding-left: 10px;
+      margin-bottom: 40px;
+    }
+    .hero-text{
+      font-size: 14pt;
+      padding-left: 50px;
+      max-width: 600px;
+    }
+
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hero {
+    min-height: 400px;
+    background-image: url("http://pedrosntana.com/wp-content/uploads/2017/06/byron-johnson-149913.jpg");
+    background-position: center;
+    background-size: cover;
+    .hero-content {
+      color: #fff;
+      padding-top: 50px;
+      .hero-title {
+        font-family: 'Satisfy', cursive;
+        font-size: 78pt;
+      }
+      .hero-title, .hero-text {
+        text-align: left;
+      }
+      .hero-subtitle {
+        padding-left: 10px;
+        margin-bottom: 40px;
+      }
+      .hero-text{
+        padding-left: 50px;
+        max-width: 600px;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@mixin text {
+  h1 {
+    font-family: 'Satisfy', cursive;
+  }
+  p {
+    padding-top: 1%;
+    font-size: 18px;
+    .read a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.contact-info {
+  @include text;
+  .info {
+    font-size: 16px;
+    width: 70%;
+  }
+  .pandA {
+    padding: 4% 0;
+    text-align: center;
+  }
+}
+
+.footer {
+  margin-top: 3%;
+}

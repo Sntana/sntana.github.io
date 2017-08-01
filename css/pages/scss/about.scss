@@ -1,0 +1,67 @@
+$divider: 1px solid #e0e0e0;
+/* General Rules */
+@mixin text($align) {
+  text-align: $align;
+  h2 {
+    font-family: 'Satisfy', cursive;
+  }
+  p {
+    padding-top: 1%;
+    font-size: 18px;
+    .read a {
+      text-decoration: underline;
+    }
+  }
+}
+/* Section Specific Rules*/
+.bio {
+  padding-bottom: 3%;
+  .story {
+    border-bottom: $divider;
+    @include text(center);
+  }
+}
+
+.gallery {
+  text-align: center;
+  h2 {
+    font-family: 'Satisfy', cursive;
+  }
+  p {
+    padding-top: 1%;
+    font-size: 18px;
+  }
+  /* Blog Code */
+  .gallery-grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    padding-bottom: 3%;
+    .responsive-image {
+      max-width: 100%;
+    }
+    .picture-item img {
+      display: block;
+    }
+    .picture-item {
+      margin: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .picture-item {
+        width: calc(25% - 2rem);
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .picture-item {
+      width: calc(25% - 2rem);
+    }
+  }
+}

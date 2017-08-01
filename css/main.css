@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,700,800,900|Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Satisfy|Yellowtail");
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+.body {
+  border: 15px solid #232323; }
+
+.hero {
+  min-height: 200px;
+  background-image: url("http://pedrosntana.com/wp-content/uploads/2017/06/byron-johnson-149913.jpg");
+  background-position: center;
+  background-size: cover; }
+  .hero .hero-content {
+    color: #fff;
+    padding-top: 50px; }
+    .hero .hero-content .hero-title {
+      font-family: 'Satisfy', cursive;
+      font-size: 24pt; }
+    .hero .hero-content .hero-title, .hero .hero-content .hero-text {
+      text-align: left; }
+    .hero .hero-content .hero-subtitle {
+      padding-left: 10px;
+      margin-bottom: 40px; }
+    .hero .hero-content .hero-text {
+      font-size: 14pt;
+      padding-left: 50px;
+      max-width: 600px; }
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    min-height: 400px;
+    background-image: url("http://pedrosntana.com/wp-content/uploads/2017/06/byron-johnson-149913.jpg");
+    background-position: center;
+    background-size: cover; }
+    .hero .hero-content {
+      color: #fff;
+      padding-top: 50px; }
+      .hero .hero-content .hero-title {
+        font-family: 'Satisfy', cursive;
+        font-size: 78pt; }
+      .hero .hero-content .hero-title, .hero .hero-content .hero-text {
+        text-align: left; }
+      .hero .hero-content .hero-subtitle {
+        padding-left: 10px;
+        margin-bottom: 40px; }
+      .hero .hero-content .hero-text {
+        padding-left: 50px;
+        max-width: 600px; } }
+@font-face {
+  font-family: 'Humble Rought';
+  src: url("fonts/Humblle Rought Caps.ttf") format("truetype"); }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    color: #ffc132;
+    text-decoration: none; }
+  a:active {
+    color: #ffc132;
+    text-decoration: underline; }
+
+.hero {
+  padding-top: 0; }
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff; }
+  header ul {
+    list-style: none; }
+    header ul li {
+      display: inline;
+      padding-right: 10px;
+      font-weight: 600; }
+  header .logo {
+    padding: 10px 0px 10px 30px;
+    max-height: 50px;
+    width: auto; }
+  header .menu {
+    padding-right: 30px;
+    position: relative;
+    top: 15px;
+    float: right; }
+    header .menu a {
+      color: #fff; }
+
+.footer {
+  display: block;
+  background: #323232;
+  margin: 0;
+  padding: 0; }
+  .footer .footer-box {
+    padding: 3% 0;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    color: #fff; }
+    .footer .footer-box h3 {
+      font-family: 'Satisfy', cursive; }
+    .footer .footer-box h5, .footer .footer-box p {
+      margin-left: 2%;
+      font-size: 10pt; }
+  .footer #about p {
+    width: 80%; }
+  .footer #menu h3 {
+    margin-left: 30px; }
+  .footer #menu a {
+    font-weight: 500; }
+  .footer #menu ul {
+    list-style: none; }
+  .footer #menu .submenu {
+    padding-left: 10px; }
+  .footer .copy-box {
+    padding: 0;
+    margin: 0;
+    background-color: #1c1c1c;
+    color: white; }
+    .footer .copy-box p {
+      padding-top: 1%;
+      text-align: center;
+      font-size: 12pt; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,18 @@
+.contact-info h1 {
+  font-family: 'Satisfy', cursive; }
+.contact-info p {
+  padding-top: 1%;
+  font-size: 18px; }
+  .contact-info p .read a {
+    text-decoration: underline; }
+.contact-info .info {
+  font-size: 16px;
+  width: 70%; }
+.contact-info .pandA {
+  padding: 4% 0;
+  text-align: center; }
+
+.footer {
+  margin-top: 3%; }
+
+/*# sourceMappingURL=contact.css.map */
